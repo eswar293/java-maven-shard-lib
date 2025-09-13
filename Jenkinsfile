@@ -28,7 +28,7 @@ pipeline {
         stage("build image") {
             steps {
                 script {
-                    buildImage()
+                    buildImage 'eswar1241/my-repo:jma-2.0'
                 }
             }
         }
