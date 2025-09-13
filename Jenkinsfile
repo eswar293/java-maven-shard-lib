@@ -40,7 +40,7 @@ pipeline {
                 }
             }
         }
-        post{
+        post {
             sucess {
                 echo "installed dependences bild libraries and build docker iamge sucessfully"
             }
