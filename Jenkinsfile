@@ -27,6 +27,7 @@ pipeline {
 
         // below steps are from building the image for the better route
         // using this for the 2nd time
+        // hence dong for the 3rd time
         stage("build image") {
             steps {
                 script {
