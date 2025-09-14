@@ -25,6 +25,7 @@ pipeline {
             }
         }
 
+        // below steps are from building the image
         stage("build image") {
             steps {
                 script {
