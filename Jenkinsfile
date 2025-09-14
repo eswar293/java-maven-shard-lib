@@ -24,7 +24,7 @@ pipeline {
                 }
             }
         }
-
+        \\ adding this branch
         stage("build image") {
             steps {
                 script {
